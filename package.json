@@ -1,0 +1,22 @@
+{
+  "name": "google-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "GOOGLE_APPLICATION_CREDENTIALS='./secret.json' nodemon index.js",
+    "google": "nodemon google.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "google-auth-library": "^7.10.2",
+    "googleapis": "^39.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
